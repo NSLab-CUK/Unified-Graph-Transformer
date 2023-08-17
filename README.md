@@ -22,7 +22,7 @@ Unified Graph Transformer (UGT) is a novel Graph Transformer model specialised i
 
 ## 1. Overview
 
-Over the past few years, graph neural networks and graph transformers have been successfully used to analyze graph-structured data, mainly focusing on node classification and link prediction tasks. However, the existing studies mostly only consider local connectivity while ignoring long-range connectivity and the roles of nodes. We propose Unified Graph Transformer Networks (**UGT**) that effectively integrate local and global structural information into fixed-length vector representations. **UGT** learns local structure by identifying the local substructures and aggregating features of the k-hop neighborhoods of each node. Second, we construct virtual edges, bridging distant nodes with structural similarity to capture the long-range dependencies. **UGT** learns unified representations through self-attention, encoding structural distance and p-step transition probability between node pairs. Furthermore, we propose a self-supervised learning task that effectively learns transition probability to fuse local and global structural features, which could then be transferred to other downstream tasks. Experimental results on real-world benchmark datasets over various downstream tasks showed that **UGT** significantly outperformed baselines that consist of state-of-the-art models. In addition, **UGT** reaches the third-order Weisfeiler-Lehman power to distinguish non-isomorphic graph pairs.
+Over the past few years, graph neural networks and graph transformers have been successfully used to analyze graph-structured data, mainly focusing on node classification and link prediction tasks. However, the existing studies mostly only consider local connectivity while ignoring long-range connectivity and the roles of nodes. We propose Unified Graph Transformer Networks (**UGT**) that effectively integrate local and global structural information into fixed-length vector representations. **UGT** learns local structure by identifying the local substructures and aggregating features of the k-hop neighborhoods of each node. We construct virtual edges, bridging distant nodes with structural similarity to capture the long-range dependencies. **UGT** learns unified representations through self-attention, encoding structural distance and p-step transition probability between node pairs. Furthermore, we propose a self-supervised learning task that effectively learns transition probability to fuse local and global structural features, which could then be transferred to other downstream tasks. Experimental results on real-world benchmark datasets over various downstream tasks showed that **UGT** significantly outperformed baselines that consist of state-of-the-art models. In addition, **UGT** reaches the third-order Weisfeiler-Lehman power to distinguish non-isomorphic graph pairs.
 
 <br>
 
@@ -52,7 +52,6 @@ All the requirements are included in ```environment.yml``` file.
 # Install python environment
 
 conda env create -f environment.yml 
-
 ```
 ### Hyperparameters
 
@@ -80,7 +79,6 @@ Following Options can be passed to exp_10.py
 
 ```--beta:``` Hyperparameters for feature construction loss. For example: ```--beta 0.6```.
 
-
 ### Node-level Tasks
 
 The the source code for node clustering and node classification are included in the ```Node_level_tasks``` folder. 
@@ -106,7 +104,6 @@ python exp_10.py --dataset cora --task node_classification --pre_load 0 --lr 0.0
 # Running Node clustering task:
 
 python exp_10.py --dataset cora --task node_clustering --pre_load 0 --lr 0.001 --dims 16 --k_hop 1 --num_layers 2 --k_transition 6 --alfa 0.5 --beta 0.5
-
 ```
 
 ### Graph-level Classification Task
@@ -123,7 +120,6 @@ python exp_10.py --dataset PROTEINS --pre_load 1 --task graph_classification
 # Graph classification task:
 
 python exp_10.py --dataset PROTEINS --pre_load 0 --task graph_classification
-
 ```
 
 ### Isomorphism Testing
