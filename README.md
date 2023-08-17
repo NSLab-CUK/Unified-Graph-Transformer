@@ -1,5 +1,5 @@
 # Unified Graph Transformer
-Unified Graph Transformer (UGT) is a novel Graph Representation Learning Framework developed by [NS Lab, CUK](https://nslab-cuk.github.io/) based on pure [PyTorch](https://github.com/pytorch/pytorch) backend. 
+Unified Graph Transformer (UGT) is a novel Graph Transformer model specialised in preserving both local and global graph structures and developed by [NS Lab, CUK](https://nslab-cuk.github.io/) based on pure [PyTorch](https://github.com/pytorch/pytorch) backend. 
 
 <p align=center>
   <a href="https://www.python.org/downloads/release/python-360/">
