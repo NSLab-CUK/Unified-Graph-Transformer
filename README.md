@@ -36,7 +36,7 @@ Over the past few years, graph neural networks and graph transformers have been 
 ## 1. Requirements and Environment Setup
 
 The source code developed in Python 3.8.8. UGT are built using Torch-geometric 2.3.1 and DGL 1.1.0. Please refers to official websites for installation and setup.
-All the requirements are included in environment.yml file. 
+All the requirements are included in ```environment.yml``` file. 
 
 ```
 # Conda installation
@@ -71,7 +71,7 @@ Following Options can be passed to exp_10.py
 
 ```--task:``` The specific task. For example: ```--task pre_training```.
 
-```--pre_load:``` The processing mode, including pre-processing and training. For example: ```--pre_load 0``` for pre-preprocessing data.
+```--pre_load:``` The processing mode, including pre-processing and training. For example: ```--pre_load 0``` for pre-processing graph.
 
 ```--dims:``` The dimmension of hidden vectors.  For example: ```--dims 16```.
 
@@ -81,8 +81,7 @@ Following Options can be passed to exp_10.py
 
 ```--alpha:``` Hyperparameters for transition construction loss. For example: ```--alpha 0.4```.
 
-```--beta:``` LHyperparameters for feature construction loss. For example: ```--beta 0.6```.
-
+```--beta:``` Hyperparameters for feature construction loss. For example: ```--beta 0.6```.
 
 
 ### Node-level Tasks
@@ -90,7 +89,7 @@ Following Options can be passed to exp_10.py
 The the source code for node clustering and node classification are included in the ```Node_level_tasks``` folder. 
 We do experiments on eleven public benchmark datasets, including cora, citeseer, brazil, europe, usa, chameleon, squirrel, film, cornell,  texas, and wisconsin. The datasets are automatically downloaded.
 Note that one can test node classification and node clustering task followed by pre-training tasks. 
-We sample k-hop neighbourhood and virtual edges in the pre-processing step and save the pre-processing data in the ```pts``` and ```outputs``` folders. For example, one can pre-train ***UGT*** on cora dataset and then test the performance on node classification and node clustering tasks:
+We sample k-hop neighbourhood and virtual edges in the pre-processing step and store the processed data in the ```pts``` and ```outputs``` folders. For example, one can first pre-train ***UGT*** on cora dataset and then test on downstream tasks, such as node classification and node clustering:
 
 ```
 cd Node_level_tasks
