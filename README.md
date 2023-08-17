@@ -93,7 +93,7 @@ Note that one can test node classification and node clustering task followed by 
 We sample k-hop neighbourhood and virtual edges in the pre-processing step and save the pre-processing data in the ```pts``` and ```outputs``` folders.
 
 ```
-# cd Node_level_tasks
+cd Node_level_tasks
 
 # Pre-preprocessing data
 
@@ -136,6 +136,8 @@ python exp_10.py --dataset PROTEINS --pre_load 0 --task graph_classification
 There are five graph datasets, including Graph8c and five Strongly Regular Graphs datasets (SR251256, SR261034, SR281264, SR401224), which contain 1d-WL and 3d-WL equivalent graph pairs, respectively. For example, one can test the power of UGT on sr16622 dataset: 
 
 ```
+cd IsomorphismTesting
+
 python exp_10.py --dataset sr16622 --task iso_test
 ```
 
