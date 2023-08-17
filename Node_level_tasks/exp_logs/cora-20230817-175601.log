@@ -1,0 +1,2 @@
+INFO:root:Starting on device: cuda:0
+INFO:root:Config: Namespace(dataset='cora', model='Transformer', custom_masks=True, original_edges=1, original_edges_weight=1.0, k_eigenvector=10, drop=0.5, run_times=1, num_heads=4, epochs=2000, lr=0.001, dims=16, out_size=16, k_hop=1, num_layers=2, k_transition=6, run_times_fine=500, percent=10, output_path='outputs/', file_name='brazil_10.xlsx', index_excel=-1, device='cuda:0', pre_load=0, alfa=0.5, beta=0.5, task='node_clustering') 
