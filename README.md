@@ -90,7 +90,7 @@ Following Options can be passed to exp_10.py
 The the source code for node clustering and node classification are included in the ```Node_level_tasks``` folder. 
 We do experiments on eleven public benchmark datasets, including cora, citeseer, brazil, europe, usa, chameleon, squirrel, film, cornell,  texas, and wisconsin. The datasets are automatically downloaded.
 Note that one can test node classification and node clustering task followed by pre-training tasks. 
-We sample k-hop neighbourhood and virtual edges in the pre-processing step and save the pre-processing data in the ```pts``` and ```outputs``` folders.
+We sample k-hop neighbourhood and virtual edges in the pre-processing step and save the pre-processing data in the ```pts``` and ```outputs``` folders. For example, one can pre-train ***UGT*** on cora dataset and then test the performance on node classification and node clustering tasks:
 
 ```
 cd Node_level_tasks
@@ -116,8 +116,7 @@ python exp_10.py --dataset cora --task node_clustering --pre_load 0 --lr 0.001 -
 ### Graph-level Classification Task
 
 The the source code for Graph-level classification task is included in the ```Graph_classification``` folder. 
-We do experiments on four public benchmark datasets, including Enzymes, Proteins, NCI1, and NCI9 from TUDataset. The datasets are automatically downloaded.
-
+We do experiments on four public benchmark datasets, including Enzymes, Proteins, NCI1, and NCI9 from TUDataset. The datasets are automatically downloaded. For example, one can run UGT on Proteins dataset:
 ```
 cd Graph_classification
 
@@ -146,7 +145,6 @@ python exp_10.py --dataset sr16622 --task iso_test
 :page_with_curl: Paper [on arXiv](https://arxiv.org/)
 
 :pencil: Blog [on Network Science Lab](https://nslab-cuk.github.io/)
-
 
 <br><br><br>
 
