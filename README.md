@@ -27,7 +27,7 @@ Over the past few years, graph neural networks and graph transformer models have
 <br>
 
 <p align="center">
-  <img src="./Figures/UGT.png" alt="Graph Transformer Architecture" width="800">
+  <img src="./Figures/UGT.jpg" alt="Graph Transformer Architecture" width="800">
   <br>
   <b></b>: The overall architecture of Unified Graph Transformer Networks.
 </p>
