@@ -35,10 +35,11 @@ Over the past few years, graph neural networks and graph transformers have been 
 
 ## 2. Reproducibility
 
-### Datasets
+### Datasets and Tasks
 
-The package ```Node_level_tasks``` contains the modules required for node clustering and node classification task, ```Graph_classification``` is for graph classification task, and  ```IsomorphismTesting``` is for Isomorphism testing.
-For the node-level tasks, we used eleven publicly available datasets, which are grouped into three different domains, including Air-traffic networks (e.g., Brazil, Europe, and USA), Webpage networks (e.g., Chameleon, Squirrel, Actor, Cornell, Texas, and Wisconsin), and Citation networks (e.g., Cora and Citeseer). We used four publicly available datasets for the graph classification task, including Enzymes, Proteins, NCI1, and NCI9 from TUDataset. Furthermore, we used Graph8c and five Strongly Regular Graphs datasets (graph8c, SR251256, SR261034, SR281264, SR401224), which contain 1d-WL and 3d-WL equivalent graph pairs, respectively, for isomorphism testing. The datasets are automatically downloaded.
+The package ```Node_level_tasks``` contains the modules required for node clustering and node classification tasks. The package ```Graph_classification``` is for graph classification task. The package ```IsomorphismTesting``` is for Isomorphism testing. 
+
+For the node-level tasks, we used eleven publicly available datasets, which are grouped into three different domains, including Air-traffic networks (e.g., Brazil, Europe, and USA), Webpage networks (e.g., Chameleon, Squirrel, Actor, Cornell, Texas, and Wisconsin), and Citation networks (e.g., Cora and Citeseer). We used four publicly available datasets for the graph classification task, including Enzymes, Proteins, NCI1, and NCI9 from TUDataset.  For isomorphism testing, we used Graph8c and five Strongly Regular Graphs datasets (graph8c, SR251256, SR261034, SR281264, SR401224), which contain 1d-WL and 3d-WL equivalent graph pairs, respectively, for isomorphism testing. The datasets are automatically downloaded.
 
 ### Requirements and Environment Setup
 
