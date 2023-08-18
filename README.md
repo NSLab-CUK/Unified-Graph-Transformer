@@ -1,5 +1,5 @@
 # Unified Graph Transformer
-Unified Graph Transformer (UGT) is a novel Graph Transformer model specialised in preserving both local and global graph structures and developed by [NS Lab, CUK](https://nslab-cuk.github.io/) based on pure [PyTorch](https://github.com/pytorch/pytorch) backend. The paper is available [on arXiv](https://arxiv.org/)
+Unified Graph Transformer (UGT) is a novel Graph Transformer model specialised in preserving both local and global graph structures and developed by [NS Lab, CUK](https://nslab-cuk.github.io/) based on pure [PyTorch](https://github.com/pytorch/pytorch) backend. The paper is available on [arXiv](https://arxiv.org/).
 
 <p align=center>
   <a href="https://www.python.org/downloads/release/python-360/">
@@ -134,9 +134,38 @@ python exp_10.py --dataset sr16622 --task iso_test
 
 ## 3. Reference
 
-:page_with_curl: Paper [on arXiv](https://arxiv.org/)
+:page_with_curl: Paper [on arXiv](https://arxiv.org/): [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b?style=flat-square&logo=arxiv&logoColor=red)](https://arxiv.org/) 
 
-:pencil: Blog [on Network Science Lab](https://nslab-cuk.github.io/)
+:chart_with_upwards_trend: Experimental results [on Papers With Code](https://paperswithcode.com/): [![PwC](https://custom-icon-badges.demolab.com/badge/Papers%20With%20Code-Connector%200%2E5-21CBCE?style=flat-square&logo=paperswithcode)](https://paperswithcode.com/paper/connector-0-5-a-unified-framework-for-graph)
 
-<br><br><br>
+:pencil: Blog [on Network Science Lab](https://nslab-cuk.github.io/): [![Web](https://img.shields.io/badge/NS@CUK-Post-0C2E86?style=flat-square&logo=jekyll&logoColor=FFFFFF)](https://nslab-cuk.github.io/2023/04/23/Connector0-5/)
+
+## 4. Citing UGT
+
+Please cite our [paper](https://arxiv.org/) if you find *UGT* useful in your work:
+```
+@misc{hoang2023ugt,
+      title={Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-based Similarity}, 
+      author={Van Thuy Hoang and O-Joun Lee},
+      year={2023},
+      eprint={XXXX.XXXXX},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
+## Contributors
+
+<a href="https://github.com/NSLab-CUK/Unified-Graph-Transformer/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NSLab-CUK/Unified-Graph-Transformer" />
+</a>
+
+
+
+<br>
+
+***
+
+<a href="https://nslab-cuk.github.io/"><img src="https://github.com/NSLab-CUK/NSLab-CUK/raw/main/Logo_Dual_Wide.png"/></a>
+
 
