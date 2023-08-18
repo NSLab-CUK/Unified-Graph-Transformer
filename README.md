@@ -136,7 +136,7 @@ python exp_10.py --dataset sr16622 --task iso_test
 
 :page_with_curl: Paper [on arXiv](https://arxiv.org/): [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b?style=flat-square&logo=arxiv&logoColor=red)](https://arxiv.org/) 
 
-:chart_with_upwards_trend: Experimental results [on Papers With Code](https://paperswithcode.com/): [![PwC](https://custom-icon-badges.demolab.com/badge/Papers%20With%20Code-UGT%200%2E5-21CBCE?style=flat-square&logo=paperswithcode)](https://paperswithcode.com/paper/connector-0-5-a-unified-framework-for-graph)
+:chart_with_upwards_trend: Experimental results [on Papers With Code](https://paperswithcode.com/): [![PwC](https://custom-icon-badges.demolab.com/badge/Papers%20With%20Code-UGT-21CBCE?style=flat-square&logo=paperswithcode)](https://paperswithcode.com/paper/connector-0-5-a-unified-framework-for-graph)
 
 :pencil: Blog [on Network Science Lab](https://nslab-cuk.github.io/): [![Web](https://img.shields.io/badge/NS@CUK-Post-0C2E86?style=flat-square&logo=jekyll&logoColor=FFFFFF)](https://nslab-cuk.github.io/)
 
