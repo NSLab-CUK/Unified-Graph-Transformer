@@ -141,7 +141,7 @@ python exp_10.py --dataset sr16622 --task iso_test
 * [![PwC](https://custom-icon-badges.demolab.com/badge/Papers%20With%20Code-UGT-21CBCE?style=flat-square&logo=paperswithcode)](https://paperswithcode.com/paper/connector-0-5-a-unified-framework-for-graph)
 
 :pencil: Blog [on Network Science Lab](https://nslab-cuk.github.io/): 
-* [![Web](https://img.shields.io/badge/NS@CUK-Post-0C2E86?style=flat-square&logo=jekyll&logoColor=FFFFFF)](https://nslab-cuk.github.io/)
+* [![Web](https://img.shields.io/badge/NS@CUK-Post-0C2E86?style=flat-square&logo=jekyll&logoColor=FFFFFF)](https://nslab-cuk.github.io/2023/08/17/UGT/)
 
 
 ## 4. Citing UGT
