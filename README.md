@@ -1,5 +1,5 @@
 # Unified Graph Transformer
-Unified Graph Transformer (UGT) is a novel Graph Transformer model specialised in preserving both local and global graph structures and developed by [NS Lab, CUK](https://nslab-cuk.github.io/) based on pure [PyTorch](https://github.com/pytorch/pytorch) backend. The paper is available on [arXiv](https://arxiv.org/abs/2308.09517).
+Unified Graph Transformer (UGT) is a novel Graph Transformer model specialised in preserving both local and global graph structures and developed by [NS Lab, CUK](https://nslab-cuk.github.io/) based on pure [PyTorch](https://github.com/pytorch/pytorch) backend. The paper is available on [on AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/29138).
 
 <p align=center>
   <a href="https://www.python.org/downloads/release/python-360/">
@@ -134,6 +134,9 @@ python exp_10.py --dataset sr16622 --task iso_test
 
 ## 3. Reference
 
+:page_with_curl: Paper [on AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/index): 
+* [![DOI](http://img.shields.io/:DOI-10.1609/aaai.v38i11.29138-blue?style=flat-square)](https://doi.org/10.1609/aaai.v38i11.29138) 
+
 :page_with_curl: Paper [on arXiv](https://arxiv.org/): 
 * [![arXiv](https://img.shields.io/badge/arXiv-2308.09517-b31b1b?style=flat-square&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2308.09517) 
 
@@ -146,15 +149,21 @@ python exp_10.py --dataset sr16622 --task iso_test
 
 ## 4. Citing UGT
 
-Please cite our [paper](https://arxiv.org/abs/2308.09517) if you find *UGT* useful in your work:
+Please cite our [paper](https://ojs.aaai.org/index.php/AAAI/article/view/29138) if you find *UGT* useful in your work:
 ```
-@misc{hoang2023ugt,
-      title={Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-based Similarity}, 
-      author={Van Thuy Hoang and O-Joun Lee},
-      year={2023},
-      eprint={2308.09517},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@Article{Hoang_2024,
+  author    = {Hoang, Van Thuy and Lee, O-Joun},
+  journal   = {Proceedings of the 38th AAAI Conference on Artificial Intelligence (AAAI 2024)},
+  title     = {Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-Based Similarity},
+  year      = {2024},
+  issn      = {2159-5399},
+  month     = mar,
+  number    = {11},
+  pages     = {12456--12465},
+  volume    = {38},
+  doi       = {10.1609/aaai.v38i11.29138},
+  publisher = {Association for the Advancement of Artificial Intelligence (AAAI)},
+  url       = {https://doi.org/10.1609/aaai.v38i11.29138},
 }
 ```
 
