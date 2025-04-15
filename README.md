@@ -152,20 +152,29 @@ python exp_10.py --dataset sr16622 --task iso_test
 Please cite our [paper](https://ojs.aaai.org/index.php/AAAI/article/view/29138) if you find *UGT* useful in your work:
 ```
 @InProceedings{Hoang_2024,
-  author    = {Hoang, Van Thuy and Lee, O-Joun},
-  booktitle = {Proceedings of the 38th AAAI Conference on Artificial Intelligence (AAAI 2024)},
-  title     = {Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-Based Similarity},
-  year      = {2024},
-  address   = {Vancouver, Canada},
-  editor    = {Michael Wooldridge and Jennifer Dy and Sriraam Natarajan},
-  month     = feb,
-  number    = {11},
-  pages     = {12456--12465},
-  publisher = {Association for the Advancement of Artificial Intelligence (AAAI)},
-  volume    = {38},
-  doi       = {10.1609/aaai.v38i11.29138},
-  issn      = {2159-5399},
-  url       = {https://doi.org/10.1609/aaai.v38i11.29138},
+      author    = {Hoang, Van Thuy and Lee, O-Joun},
+      booktitle = {Proceedings of the 38th AAAI Conference on Artificial Intelligence (AAAI 2024)},
+      title     = {Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-Based Similarity},
+      year      = {2024},
+      address   = {Vancouver, Canada},
+      editor    = {Michael Wooldridge and Jennifer Dy and Sriraam Natarajan},
+      month     = feb,
+      number    = {11},
+      pages     = {12456--12465},
+      publisher = {Association for the Advancement of Artificial Intelligence (AAAI)},
+      volume    = {38},
+      doi       = {10.1609/aaai.v38i11.29138},
+      issn      = {2159-5399},
+      url       = {https://doi.org/10.1609/aaai.v38i11.29138},
+}
+
+@misc{hoang2023ugt,
+      title={Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-based Similarity}, 
+      author={Van Thuy Hoang and O-Joun Lee},
+      year={2023},
+      eprint={2308.09517},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```
 
