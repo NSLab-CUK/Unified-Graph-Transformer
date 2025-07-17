@@ -1,0 +1,24 @@
+cff-version: 1.0.0
+date-released: 2024-02
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Hoang"
+  given-names: "Van Thuy"
+- family-names: "Lee"
+  given-names: "O-Joun"
+title: "Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-based Similarity"
+url: "https://ojs.aaai.org/index.php/AAAI/article/view/29138"
+preferred-citation:
+  type: conference-paper
+  conference:
+    name: "Proceedings of the 38th AAAI Conference on Artificial Intelligence (AAAI 2024)"
+  authors:
+    - family-names: "Hoang"
+      given-names: "Van Thuy"
+    - family-names: "Lee"
+      given-names: "O-Joun"
+title: "Transitivity-Preserving Graph Representation Learning for Bridging Local Connectivity and Role-based Similarity"
+url: "https://ojs.aaai.org/index.php/AAAI/article/view/29138"
+  year: 2024
+  publisher: "Association for the Advancement of Artificial Intelligence"
+  address: "Vancouver, Canada"
